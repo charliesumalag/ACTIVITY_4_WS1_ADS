@@ -83,6 +83,7 @@ main {
 }
 img {
   width: 40rem;
+  border-radius: 3px;
 }
 .pictures-container {
   /* border: 1px solid red; */
