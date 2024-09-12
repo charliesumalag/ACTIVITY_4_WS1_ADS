@@ -1,0 +1,121 @@
+/* import fons style */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", system-ui;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  width: 100%;
+  height: 100vh;
+  color: black;
+}
+.orange-bg {
+  width: 100%;
+  padding: 5rem;
+  background-color: #ff5733;
+}
+.wrapper {
+  max-width: 150rem;
+  margin: 0 auto;
+}
+header {
+  max-width: 150rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.nav-lists {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+}
+.nav-list {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  color: white;
+  transition: 0.3s all ease;
+}
+.nav-btn:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+main {
+  text-align: center;
+  padding: 3rem;
+}
+.main-btn {
+  margin-top: 1rem;
+  border: none;
+  background-color: #ff5733;
+  padding: 1.2rem 3rem;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5rem;
+  transition: 0.3s all ease;
+}
+.main-btn:hover {
+  background-color: #ff7f63;
+}
+img {
+  width: 40rem;
+}
+.pictures-container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 0 5rem;
+  gap: 2rem;
+}
+.first {
+  grid-column: 1/4;
+  width: 100%;
+}
+.first-image {
+  width: 100%;
+  height: 70rem;
+}
+.images {
+  width: 100%;
+}
+.main-header-text {
+  color: #ff5733;
+  margin-top: 2rem;
+}
+.para-main {
+  width: 46.1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: #ff5733;
+  padding: 2rem 0;
+  color: #333;
+}
